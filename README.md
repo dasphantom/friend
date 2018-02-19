@@ -1,4 +1,7 @@
 # friend
-Chatbot: Combines userinput with added possible outputs to setup conversations
+TODO
+-Training Mode
+-Remember users mood
+-Predict users mood
 
 Requires: MySQL db
