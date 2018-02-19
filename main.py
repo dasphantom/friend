@@ -1,7 +1,17 @@
-import _mysql
-import credentials
+import sqlite3
 
-db=_mysql.connect("localhost",credentials.login['username'],credentials.login['password'], "friend")
+conn = sqlite3.connect('friend.db')
+
+c = conn.cursor()
+c.execute('select * from phrases')
+all_rows = c.fetchall()
+print(all_rows)
+
+
+
+
+
+
 
 
 
