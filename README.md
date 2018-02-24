@@ -7,4 +7,4 @@ Remember users mood
 
 Predict users mood
 
-Requires: MySQL db
+DB: sqlite 3
